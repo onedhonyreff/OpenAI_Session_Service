@@ -62,7 +62,7 @@ def handle_new_session():
 
 @app.route('/')
 def health_check():
-    return "OK", 200
+    return "Welcome OpenAI Session API - The service running correctly", 200
 
 
 @app.errorhandler(404)
